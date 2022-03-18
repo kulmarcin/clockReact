@@ -1,0 +1,37 @@
+.SetTimer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0;
+
+  i {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  span {
+    &:hover {
+      cursor: default;
+    }
+  }
+}
+
+h2 {
+  margin: 0;
+  span {
+    margin: 0 0.5rem;
+  }
+
+  &:hover {
+    cursor: default;
+  }
+}
+
+h3 {
+  margin: 0;
+  text-align: center;
+
+  &:hover {
+    cursor: default;
+  }
+}
